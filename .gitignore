@@ -1,0 +1,21 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit config / cache
+.streamlit/
+*.log
+
+# Persistent simulation runs (keep template schema clean)
+data/*.csv
+!data/.gitkeep
